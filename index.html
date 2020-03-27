@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estrutura de página</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
+    <div class="logo">
+        <img src="img/html5_css3.png" width="200">
+    </div>
+    
     <nav>
-        <p> Menu</p>
         <ul>
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#clientes">Clientes</a></li>
-            <li>Time</li>
-            <li>Contato</li>
+            <li><a href="#time">Time</a></li>
+            <li><a href="#time">Contato</a></li>
         </ul>
     </nav>
     
@@ -21,43 +25,45 @@
             <p>O código desta página exemplifica um modelo básico da estrutura de uma página web html 5.</p>
     </header>
 
-    <section id="servicos">
-        <h2>Serviços:</h2>
-        <p>Oferecemos os melhores serviços em desenvolvimento de sites.</p>
-        <div>
-            <img src="img/image6.jpg" width="300">
-        </div>
-    </section>
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <p>Oferecemos os melhores serviços em desenvolvimento de sites. <br>Estrutura responsiva, com acessibilidade e de fácil manutenção através de área administtrativa personalizada.</p>
+            <div>
+                <img src="img/image6.jpg" class="img-padrao">
+            </div>
+        </section>
 
-    <section id="clientes">
-        <h2>Clientes</h2>
-        <p>Conheça nossos clientes e últimos trabalhos desenvolvidos.</p>
-        <div>
-            <img src="img/image4.jpg" width="300">
-        </div>
-    </section>
+        <section id="clientes">
+            <h2>Clientes</h2>
+            <p>Conheça nossos clientes e últimos trabalhos desenvolvidos.</p>
+            <div>
+                <img src="img/image4.jpg" class="img-padrao">
+            </div>
+        </section>
 
-    <section id="time">
-        <h2>Nosso time</h2>
-        <p>Dedicação, atenção e excelência.</p>
-        <div>
-            <img src="img/image5-servico.jpg" width="300">
-        </div>
-    </section>
+        <section id="time">
+            <h2>Nosso time</h2>
+            <p>Dedicação, atenção e excelência.</p>
+            <div>
+                <img src="img/image5-servico.jpg" class="img-padrao">
+            </div>
+        </section>   
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Deseja conhecer nossos serviços, entre em contato.</p>
-        <div>
-            <p>telefone: 11 9090-0000</p>
-            <p>E-mail: email@gmail.com</p>
-            <p>Endereço: Rua Ybr, 55 - São Paulo/ SP</p>
-            <img src="img/contato.png" width="65">
-        </div>
-    </section>
-
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Conheça nossos serviços, entre em contato:</p>
+                <p>Endereço: Rua Ybr, 55 - São Paulo/ SP</p>
+                <div class="col-contato">
+                    <div class="ico-contato"><img src="img/contato.png"></div>
+                <div class="div-tel">
+                        <p>telefone: <a href="tel:90900000">11 9090-0000</a></p>
+                        <p>E-mail: <a href="mailto:email@email.com">email@gmail.com</a></p>
+                    </div>
+                </div>
+                
+        </section>
     <footer>
-        @copyright Digital innovation One
+       <p>@copyright Digital Innovation One</p>
     </footer>
 </body>
 </html>
