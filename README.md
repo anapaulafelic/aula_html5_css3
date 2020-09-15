@@ -1,5 +1,4 @@
-# Repositório: aula_html5_css3
-Aula Digital Innovation One
+# Aula Digital Innovation One html5 e css3
 
 # O quê?
 Aula de html5 e css3 do Bootcamp Code Like a Fullstack Girl
